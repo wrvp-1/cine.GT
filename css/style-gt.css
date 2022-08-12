@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    padding: 2rem;
+}
+
+.main-nav{
+    margin-top: 10px;
+    list-style: none;/*Esto nos quita los puntos o bulets de la lista desordenada*/
+    padding-left: 10px;
+    background-color: #13a4a4;
+}
+
+.main-nav__item{
+    display: inline-block; /*Quitamos el modo vertical por ser una barra de navegacion */
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 6px;/*Esto funciona si tenemos un backgroud para mostrarlo redondeado*/
+    text-decoration: none; /*quitamos el subrayado de las palabras*/
+    /*background-color: red;*/  
+}
+.cines{
+    padding: 1rem;
+}
+
+
+
+
+
+.pie-pagina{
+    background-color: rgba(0, 0, 0, 0.199);
+    padding: 1rem;
+   
+
+}
+
+.redes{
+    font-size: 16px;
+}
+.piePagina{
+   margin: 1rem;
+}

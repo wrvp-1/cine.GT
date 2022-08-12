@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cine-GT es uno de los cines mas famosos a nivel nacional ven y disfruta de tus estrenos favoritos" >
+    <meta name="robots" content="index,follow" >
+    <link rel="stylesheet" href="./css/style-gt.css">
+    
+    <script src="./js/model-index.js"></script>
+    <title>Cine-GT</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        setTimeout(function() {
+            $(".content").fadeOut(100);
+        },500);
+     
+        setTimeout(function() {
+            $(".content2").fadeIn(500);
+        },700);
+    });
+    </script>
+ </head>
+ <body>
+    <header>
+        <nav>
+            <ul class="main-nav">
+                <li class="main-nav__item"><a href="#">CINE-GT</a></li>
+                <li class="main-nav__item"><a href="./index.html">Inicio</a></li>
+            </ul >
+                <form action="" class="cines">
+                <select id="Guate">
+                    <option value="value1" >Guatemala</option>
+                </select>
+                
+                 <select name="cines" id="Cinesgt">
+                    <option value="zona10" >Cine-GT Zona 10</option>
+                    <option value="eskala">Cine-GT Eskala</option>
+                    <option value="cayala">Cine-GT Cayalá</option>
+                    <option value="frutal"  ><a href="./vistas/zona10.html">Cine-GT El Frutal</a></option>
+                    <option value="Mixco"></option>
+                </select>
+                <button class="mostrar"  ><a href="./vistas/eskala.html">VER</a></button>
+            </form>
+ 
+        </nav>
+     </header>
+
+     <main>
+
+      <div class="content">
+        <section>
+        <figure>
+            <img src="./imgs/imgPresentation.PNG" alt="img">
+        </figure>
+        </section>
+        </div> 
+
+
+        <div class="content2" style="display: none;" >
+            <table class="tableCine" >
+                <tr>
+                    <td><img src="../imgs/el-sacrificio-z10.PNG" alt="El sacrificio" width="150" height="200"></td>
+                    <td>El Sacrificio  <br> Hora: 20:00 pm </td>
+                    <td> <img src="../imgs/minions-z10.PNG" alt="Los minions" width="150" height="200"></td>
+                    <td>Los Minions <br> Hora: 17:00 pm</td>
+                    <td> <img src="../imgs/super-mascotas-10.PNG" alt="Super Mascotas" width="150" height="200"> </td>
+                    <td>Super Mascotas <br> Hora: 18:00 pm</td>
+                    <td> <img src="../imgs/tren-bala-z10.PNG" alt="Tren Bala" width="150" height="200"> </td>
+                    <td>Tren Bala <br> Hora: 19:00 pm</td>
+                </tr>
+                <tr>
+                    <td> <img src="./imgs/dragon-ballZ.PNG" alt="DragonBall" width="150" height="200" > </td>
+                    <td> DragonBallZ <br> Hora: 16:00 pm </td>
+                    <td> <img src="./imgs/leo-grande.PNG" alt="Leo Grande" width="150" height="200" > </td>
+                    <td> Leo Grande <br> Hora 15:00 pm</td>
+                </tr>
+
+            </table>
+      </div>
+
+     </main>
+     <footer class="pie-pagina">
+        <figure>
+            <p class="redes">Sigue nuestras redes sociales</p>
+            <a href="https://twitter.com/WVasquezCode"><img src="./imgs/twitter.png" alt="twitter" width="35" height="35" class="piePagina"></a>
+            <a href=""><img src="./imgs/instagram.png" alt="instagram" width="35" height="35" class="piePagina"></a>
+            <a href="https://github.com/wr-vasquez"> <img src="/imgs/git.jpg" alt="gitHub" width="40" height="40" class="piePagina"></a>
+        </figure>
+
+     </footer>
+    
+    </body>
+</html>
